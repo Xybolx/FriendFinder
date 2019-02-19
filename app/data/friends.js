@@ -33,7 +33,7 @@ var friends = [
   },
   {
     name: "Michael",
-    photo: "https://image.myanimelist.net/ui/y75Sy0I831U7NNCH98jWCyj8twlhHyD7sOKZNw5_xWyLzI2FYqr6uezsfpX792UYECcTJqSmyrnqnHO4Qxui6A",
+    photo: "http://internetboxpodcast.com/members/avatars/sirfartsalot-1376660773.png",
     scores: [
       "3",
       "5",
