@@ -212,20 +212,19 @@
             <!-- Modal content-->
             <div class="modal-content text-center">
                 <div class="modal-header" style="background: red; color: white; text-align: center" >
+                        <h2 class="modal-title text-center"><strong class="text-center">You Should Stalk...</strong></h2>
+                        <button id="modal-close" class="btn btn-primary btn-lg btn-dark" onclick="window.location.reload()" data-dismiss="modal">Close</button>
                     <button class="close" data-dismiss="modal"></button>
-                    <h2 class="modal-title text-center"><strong class="text-center">You Should Stalk...</strong></h2>
                 </div>
                 <div class="modal-body" style="text-align: center">
                     <h2 id="match-name"></h2>
                     <div class="jumbotron jumbotron-fluid text-center" style="background: transparent">
                         <div class="container" style="max-height: 300px; min-height: 200px">
-                    <img id="match-img" class="" style="max-height: 300px; min-height: 200px" src="" alt="https://vignette.wikia.nocookie.net/gtawiki/images/d/d3/LifeInvader_GTAV_Lester_Profile_large.png/revision/latest/scale-to-width-down/150?cb=20170416022532" placeholder="No 
-                    Image Available">
+                    <img id="match-img" class="" style="max-height: 300px; min-height: 200px" src="" alt="">
                             </div>
                     </div>
                 </div>
                 <div class="modal-footer" style="background: red; color: white; text-align: center">
-                    <button id="modal-close" class="btn btn-primary btn-lg btn-dark" onclick="window.location.reload()" data-dismiss="modal">Close</button>
                 </div>
             </div>
 
@@ -326,6 +325,11 @@
                 $("#q9").val("");
                 $("#q10").val("");
             });
+            setTimeout(function() {
+                $('#results-modal').fadeToggle(2500);
+                
+                
+            })
         });
     </script>
 
