@@ -210,14 +210,18 @@
         <div class="modal-dialog">
 
             <!-- Modal content-->
-            <div class="modal-content">
+            <div class="modal-content text-center">
                 <div class="modal-header" style="background: red; color: white; text-align: center" >
                     <button class="close" data-dismiss="modal"></button>
                     <h2 class="modal-title"><strong>Best Match</strong></h2>
                 </div>
                 <div class="modal-body" style="text-align: center">
                     <h2 id="match-name"></h2>
-                    <img id="match-img" src="" alt="">
+                    <div class="jumbotron jumbotron-fluid text-center">
+                        <div class="container">
+                    <img id="match-img" class="img-fluid" src="" alt="">
+                            </div>
+                    </div>
                 </div>
                 <div class="modal-footer" style="background: red; color: white; text-align: center">
                     <button id="modal-close" class="btn btn-primary btn-lg btn-dark" onclick="window.location.reload()" data-dismiss="modal">Close</button>
