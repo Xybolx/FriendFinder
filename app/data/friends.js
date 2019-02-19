@@ -33,7 +33,7 @@ var friends = [
   },
   {
     name: "Michael",
-    photo: "http://3.bp.blogspot.com/-FQPZBWwkJT0/UkXs37yFkUI/AAAAAAAABPY/0QZhaS4NPcI/w1200-h630-p-k-no-nu/render+do+michael+-+gta+5+(grand-theft-auto-v).png",
+    photo: "https://pngimage.net/wp-content/uploads/2018/06/gta-5-michael-png-6.png",
     scores: [
       "3",
       "5",
